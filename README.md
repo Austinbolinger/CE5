@@ -4,10 +4,10 @@ Austin Bolinger
 
 ##Task 1
 
-lw	  $s0, 44         #load 44 into register 0
+lw	  \t$s0, 44        \t #load 44 into register 0
 
-lw	  $s1, -37        #load -37 into register 1
+lw	 \t $s1, -37        \t#load -37 into register 1
 
-addi 	$s2, $s0, $s1   #add register 1 and 0 and put the answer in register 2
+addi 	\t$s2, $s0, $s1   \t#add register 1 and 0 and put the answer in register 2
 
-sw	  $s2, 2B($0)     #store what is in register 2 into Hex 54
+sw	  \t$s2, 2B($0)    \t #store what is in register 2 into Hex 54
