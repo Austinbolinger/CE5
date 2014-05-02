@@ -14,9 +14,10 @@ Austin Bolinger
 
 <div class="center" style="width: auto; margin-left: auto; margin-right: auto;">sw	  $s2, 0x54($0)     #store what is in register 2 into Hex 54</div> 
 
-| Tables        | Are           | Cool  |
-|:-------------:|:-----------=-:|:-----:|
-| addi      | $s0, $0, 44 | 0x20100016 |
-| addi      | $s1, $0, -37      |   0x2012FFDD |
-| add | $s2, $s0, $s1      |    0x02508810 |
-| sw |  $s2, 0x54($0)     |    0xAC120036 |
+| Op Code       | Code          | Hex Code   |
+|:-------------:|:-------------:|:----------:|
+| addi          | $s0, $0, 44   | 0x20100016 |
+| addi          | $s1, $0, -37  | 0x2012FFDD |
+| add           | $s2, $s0, $s1 | 0x02508810 |
+| sw            | $s2, 0x54($0) | 0xAC120036 |
+ 
