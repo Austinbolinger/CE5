@@ -33,3 +33,6 @@ Task 3 worked as well. If you look at the 20 ns mark on the aluout data line aga
 ####Documentation
 I used this website to check my conversions into mips hex because I originally keep getting the wrong values and messed up my test bench.
 http://www.mipshelper.com/mips-converter.php?binary=&binaryR1=&binaryR2=&binaryR3=&binaryR4=&binaryR5=&binaryR6=&binaryI1=&binaryI2=&binaryI3=&binaryI4=&binaryJ1=&binaryJ2=&hex=&instruction=addi+%24s0%2C+%240%2C+44&submit=Convert
+
+C3C Pluger: whenever I found an idea of what to change, I would bounce it off of him as a sanity check. Often, he would ask why I was doing something, and I would realize that I should be doing something a little bit different. 
+
